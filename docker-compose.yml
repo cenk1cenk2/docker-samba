@@ -1,0 +1,10 @@
+version: '3'
+services:
+  samba:
+    image: cenk1cenk2/samba
+    env_file: .env
+    volumes:
+      # samba shared files
+      - /mnt/data:/data/data
+    privileged: true
+    network_mode: "host"
