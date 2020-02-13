@@ -1,7 +1,7 @@
 ```
 name:         | samba
 compiler:     | docker-compose + dockerfile
-version:      | v2.0, 20190319
+version:      | v2.1, 20190319
 ```
 
 ## Description:
