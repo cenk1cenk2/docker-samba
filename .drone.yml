@@ -33,7 +33,7 @@ steps:
 
   - name: publish
     image: plugins/docker
-    workdir: /drone/src/build
+    working_dir: /drone/src/build
     settings:
       repo: cenk1cenk2/samba
       username:
