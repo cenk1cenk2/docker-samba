@@ -2,6 +2,8 @@ FROM alpine:latest
 
 RUN apk --no-cache --no-progress update && \
   apk --no-cache --no-progress upgrade && \
+  # Install bash
+  apk --no-cache --no-progress add bash && \
   # Install tini
   apk --no-cache --no-progress add tini && \
   # Install Daemon

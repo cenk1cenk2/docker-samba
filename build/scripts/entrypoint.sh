@@ -35,6 +35,6 @@ while
   smbclient -L '\\localhost' -U '%' -m SMB3 >&/dev/null
   :
 do
-  echo "${SEPERATOR}\nSamba server still running and healthy.\nSleeping 10 minutes.\n${SEPERATOR}"
+  echo -e "${SEPERATOR}\nSamba server still running and healthy.\nSleeping 10 minutes.\n${SEPERATOR}"
   sleep 600
 done
